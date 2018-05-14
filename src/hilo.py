@@ -3,7 +3,7 @@ import random
 
 def main():
     resp = input("Would you like to play a game?[y/n]")
-    if resp == 'y':
+    if resp.lower() == 'y':
         play_game()
 
 
