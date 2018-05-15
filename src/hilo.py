@@ -8,10 +8,10 @@ def main():
 
 
 def play_game():
-    number = random.randint(0, 100)
+    number = random.randint(1, 100)
     guess = -1
     while guess != number:
-        guess = int(input("Pick a number between 0 - 99. "))
+        guess = int(input("Pick a number between 1 - 100. "))
         if guess > number:
             print("Too high!")
         elif guess < number:
